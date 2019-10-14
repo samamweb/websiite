@@ -59,7 +59,7 @@ $("#request-form").submit(function(event){
         // Reenable the inputs
         $inputs.prop("disabled", false);
         console.log("It's running");
-        window.location.href = 'success.html';
+        window.location.href = 'thankyou.html';
     });
 
     // Prevent default posting of form
